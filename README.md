@@ -42,22 +42,21 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
 ./scripts/feeds install -a
 
 
-make menuconfig     过程参考如下教程
+make menuconfig     过程参考如下教程https://www.right.com.cn/forum/thread-1237348-1-1.html
 
 target images 教程中此步骤为修改固件大小 一般不要修改
 
-luci >applications  此步骤为选择app
+luci >applications  此步骤为选择app插件
   
-luci >themes此步骤选主题
+luci >themes  此步骤选主题
 
-kwrnel modules > network devices此步骤为选择有线网卡，我的只需要8168网卡驱动，所以取消了其他,强迫症，不要的都取消了
+kwrnel modules > network devices  此步骤为选择有线网卡，我的只需要8168网卡驱动，所以取消了其他,强迫症，不要的都取消了
 
-kwrnel modules > wirelcss drivers此步骤为选无线网卡，一般不选，如果需要无线功能要选很多插件，小白先略过此步
+kwrnel modules > wirelcss drivers  此步骤为选无线网卡，一般不选，如果需要无线功能要选很多插件，小白先略过此步
 
 
- 
 一般选择
-kwrnel modules > network devices选择有线网卡驱动
+kwrnel modules > network devices  选择有线网卡驱动
 
 luci >applications 选择插件
 
@@ -72,7 +71,7 @@ lean的源码默认选好了完整固件需要的组件
 
 
 
-第三步：配置好make menuconfig 导出lede目录下的 .config 和feeds.conf.default 文件备用
+第三步：配置好make menuconfig 导出lede目录下的 .config 和feeds.conf.default 文件备用  看不到文件按ctrl+h  还看不到就是你没有save保存配置
 
 接着打开 https://github.com/P3TERX/Actions-OpenWrt 项目
 
