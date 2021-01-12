@@ -53,15 +53,22 @@ luci >themes此步骤选主题
 kwrnel modules > network devices此步骤为选择有线网卡，我的只需要8168网卡驱动，所以取消了其他,强迫症，不要的都取消了
 
 kwrnel modules > wirelcss drivers此步骤为选无线网卡，一般不选，如果需要无线功能要选很多插件，小白先略过此步
- 
-一般选择kwrnel modules > network devices选择了的有线网卡驱动
 
-和luci >applications 插件就行了，
+
+ 
+一般选择
+kwrnel modules > network devices选择有线网卡驱动
+
+luci >applications 选择插件
 
 既然咱们是小白，其他就不用管他，默认即可
 
+lean的源码默认选好了完整固件需要的组件
+所以我们只需要修改网卡驱动和luci插件
 
-此步骤参考教程https://www.right.com.cn/forum/thread-1237348-1-1.html
+记得最后save保存配置
+
+以上步骤参考教程https://www.right.com.cn/forum/thread-1237348-1-1.html
 
 
 
