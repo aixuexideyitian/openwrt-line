@@ -35,26 +35,47 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
 
 然后 cd lede 进入目录
 
-需要酸酸乳等插件需要修改lede/feeds.conf.default
+【核心】需要酸酸乳等插件需要修改lede/feeds.conf.default
 去掉注释#
 ****************************************************************
 src-git packages https://github.com/coolsnowwolf/packages
+
 src-git luci https://github.com/coolsnowwolf/luci
+
 src-git routing https://git.openwrt.org/feed/routing.git
+
 src-git telephony https://git.openwrt.org/feed/telephony.git
+
 src-git freifunk https://github.com/freifunk/openwrt-packages.git
+
 #src-git video https://github.com/openwrt/video.git
+
 #src-git targets https://github.com/openwrt/targets.git
+
 #src-git management https://github.com/openwrt-management/packages.git
+
 #src-git oldpackages http://git.openwrt.org/packages.git
+
 #src-link custom /usr/src/openwrt/custom-feed
+
 src-git helloworld https://github.com/fw876/helloworld
+
 **************************************************************
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 
 
-make menuconfig     过程参考如下教程https://www.right.com.cn/forum/thread-1237348-1-1.html
+[【核心】make menuconfig 
+
+过程参考如下教程
+
+https://www.right.com.cn/forum/thread-1237348-1-1.html
+
+https://mtom.ml/827.html
+
+https://onedrive.live.com/view.aspx?resid=64C9D95F1BBD0FAF!16042&ithint=file%2cxlsx&authkey=!AKR-UGHOsqhY1cc
+
+
 
 target images 教程中此步骤为修改固件大小 一般不要修改
 
