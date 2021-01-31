@@ -58,14 +58,13 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git
 
 #src-link custom /usr/src/openwrt/custom-feed
 
-src-git helloworld https://github.com/fw876/helloworld
-
-src-git 
+src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall
 
 **************************************************************
 [核心带代理的库]
 
 LEAN源码地址：  https://github.com/coolsnowwolf/lede
+
 LIEONL源码地址： https://github.com/Lienol/openwrt
 
 有几个库
@@ -78,6 +77,7 @@ https://github.com/xiaorouji/openwrt-passwall
 
 2.goole的搜passwall
 
+
 3来自文章的介绍
 
 https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6
@@ -88,12 +88,17 @@ src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall
 第二两个库
 
 https://www.right.com.cn/forum/thread-4051663-1-1.html
+
 看起来比较老
+
 jerrykuku源码地址：https://github.com/jerrykuku/openwrt-package
+
 siropboy源码地址： https://github.com/siropboy/mypackages
 
 *********************************
 ./scripts/feeds update -a
+
+
 ./scripts/feeds install -a
 
 
@@ -101,9 +106,12 @@ siropboy源码地址： https://github.com/siropboy/mypackages
 
 过程参考如下教程
 
+
 https://www.right.com.cn/forum/thread-1237348-1-1.html
 
+
 https://mtom.ml/827.html
+
 
 https://onedrive.live.com/view.aspx?resid=64C9D95F1BBD0FAF!16042&ithint=file%2cxlsx&authkey=!AKR-UGHOsqhY1cc
 
