@@ -96,10 +96,14 @@ jerrykuku源码地址：https://github.com/jerrykuku/openwrt-package
 siropboy源码地址： https://github.com/siropboy/mypackages
 
 *********************************
+
+./scripts/feeds clean
+
 ./scripts/feeds update -a
 
-
 ./scripts/feeds install -a
+
+
 
 
 [【核心】make menuconfig 
