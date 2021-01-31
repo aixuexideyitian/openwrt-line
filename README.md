@@ -103,7 +103,24 @@ siropboy源码地址： https://github.com/siropboy/mypackages
 
 ./scripts/feeds install -a
 
+*********************************
 
+
+来源
+https://github.com/jerrykuku/luci-app-vssr
+
+cd lede/package/lean/  
+
+git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
+
+git clone https://github.com/jerrykuku/luci-app-vssr.git  
+
+./scripts/feeds install -a #没安装如何生效呢 
+
+make menuconfig  #在编辑就可以在> LuCI > 3. Applications 看到
+
+
+****************************
 
 
 [【核心】make menuconfig 
