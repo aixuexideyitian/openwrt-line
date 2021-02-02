@@ -58,7 +58,6 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git
 
 #src-link custom /usr/src/openwrt/custom-feed
 
-src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall
 
 src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall
 
