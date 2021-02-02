@@ -1,0 +1,21 @@
+2021-02-02 13:40:55 (40.5 MB/s) - '/workdir/openwrt/build_dir/target-mipsel_74kc_musl/gq-client-1.2.2/gq-client' saved [3786209/3786209]
+
+--2021-02-02 13:40:55--  https://github.com/cbeuw/GoQuiet/releases/download/v1.2.2/
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2021-02-02 13:40:55 ERROR 404: Not Found.
+
+make[3]: *** [/workdir/openwrt/build_dir/target-mipsel_74kc_musl/gq-client-1.2.2/.prepared_338785120667a6da8889fc40f3a0e143_6664517399ebbbc92a37c5bb081b5c53] Error 8
+Makefile:85: recipe for target '/workdir/openwrt/build_dir/target-mipsel_74kc_musl/gq-client-1.2.2/.prepared_338785120667a6da8889fc40f3a0e143_6664517399ebbbc92a37c5bb081b5c53' failed
+make[3]: Leaving directory '/workdir/openwrt/feeds/mypackages/GoQuiet'
+make[2]: *** [package/feeds/mypackages/GoQuiet/compile] Error 2
+time: package/feeds/mypackages/GoQuiet/compile#0.13#0.05#1.46
+package/Makefile:111: recipe for target 'package/feeds/mypackages/GoQuiet/compile' failed
+make[2]: Leaving directory '/workdir/openwrt'
+make[1]: *** [/workdir/openwrt/staging_dir/target-mipsel_74kc_musl/stamp/.package_compile] Error 2
+package/Makefile:107: recipe for target '/workdir/openwrt/staging_dir/target-mipsel_74kc_musl/stamp/.package_compile' failed
+make[1]: Leaving directory '/workdir/openwrt'
+/workdir/openwrt/include/toplevel.mk:222: recipe for target 'world' failed
+make: *** [world] Error 2
+Error: Process completed with exit code 2.
