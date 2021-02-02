@@ -60,6 +60,14 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git
 
 src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall
 
+src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall
+
+src-git mypackages https://github.com/siropboy/mypackages
+
+src-git liuran001_packages https://github.com/liuran001/openwrt-packages
+
+siropboy和liuran001有重复 但是liuran001持续更新所以 把001 放在后面
+
 **************************************************************
 [核心带代理的库]
 
