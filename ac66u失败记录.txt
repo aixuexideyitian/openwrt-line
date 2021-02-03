@@ -101,3 +101,17 @@ package/Makefile:108: recipe for target '/workdir/openwrt/staging_dir/target-mip
 make[1]: Leaving directory '/workdir/openwrt'
 /workdir/openwrt/include/toplevel.mk:222: recipe for target 'world' failed
 Error: Process completed with exit code 2.
+
+
+错误三
+Configuring luci-i18n-nlbwmon-zh-cn.
+Configuring kmod-ledtrig-netdev.
+package/Makefile:65: recipe for target 'package/install' failed
+make[2]: Leaving directory '/workdir/openwrt'
+package/Makefile:108: recipe for target '/workdir/openwrt/staging_dir/target-mipsel_74kc_musl/stamp/.package_install' failed
+make[1]: Leaving directory '/workdir/openwrt'
+/workdir/openwrt/include/toplevel.mk:222: recipe for target 'world' failed
+Error: Process completed with exit code 2.
+
+
+看来什么在恩山没见或者标记他给的中文对照里没有的建构都有失败的风险
