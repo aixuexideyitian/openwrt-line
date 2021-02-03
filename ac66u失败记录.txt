@@ -1,3 +1,4 @@
+第一次错误
 2021-02-02 13:40:55 (40.5 MB/s) - '/workdir/openwrt/build_dir/target-mipsel_74kc_musl/gq-client-1.2.2/gq-client' saved [3786209/3786209]
 
 --2021-02-02 13:40:55--  https://github.com/cbeuw/GoQuiet/releases/download/v1.2.2/
@@ -18,4 +19,14 @@ package/Makefile:107: recipe for target '/workdir/openwrt/staging_dir/target-mip
 make[1]: Leaving directory '/workdir/openwrt'
 /workdir/openwrt/include/toplevel.mk:222: recipe for target 'world' failed
 make: *** [world] Error 2
+Error: Process completed with exit code 2.
+
+
+第二次错误
+Configuring kmod-ledtrig-netdev.
+package/Makefile:65: recipe for target 'package/install' failed
+make[2]: Leaving directory '/workdir/openwrt'
+package/Makefile:108: recipe for target '/workdir/openwrt/staging_dir/target-mipsel_74kc_musl/stamp/.package_install' failed
+make[1]: Leaving directory '/workdir/openwrt'
+/workdir/openwrt/include/toplevel.mk:222: recipe for target 'world' failed
 Error: Process completed with exit code 2.
