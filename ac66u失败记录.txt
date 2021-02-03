@@ -23,6 +23,77 @@ Error: Process completed with exit code 2.
 
 
 第二次错误
+Collected errors:
+ * satisfy_dependencies_for: Cannot satisfy the following dependencies for luci-app-vssr-plus:
+Configuring kmod-cfg80211.
+ * 	dnscrypt-proxy-full
+ * 	udpspeeder
+ * opkg_install_cmd: Cannot install package luci-app-vssr-plus.
+ * check_data_file_clashes: Package libgd wants to install file /workdir/openwrt/build_dir/target-mipsel_74kc_musl/root-bcm47xx/usr/lib/libgd.so
+	But that file is already provided by package  * libgd-full
+ * check_data_file_clashes: Package libgd wants to install file /workdir/openwrt/build_dir/target-mipsel_74kc_musl/root-bcm47xx/usr/lib/libgd.so.3
+	But that file is already provided by package  * libgd-full
+ * check_data_file_clashes: Package libgd wants to install file /workdir/openwrt/build_dir/target-mipsel_74kc_musl/root-bcm47xx/usr/lib/libgd.so.3.0.8
+	But that file is already provided by package  * libgd-full
+ * opkg_install_cmd: Cannot install package luci-app-vnstat.
+ * check_data_file_clashes: Package libgd wants to install file /workdir/openwrt/build_dir/target-mipsel_74kc_musl/root-bcm47xx/usr/lib/libgd.so
+	But that file is already provided by package  * libgd-full
+ * check_data_file_clashes: Package libgd wants to install file /workdir/openwrt/build_dir/target-mipsel_74kc_musl/root-bcm47xx/usr/lib/libgd.so.3
+	But that file is already provided by package  * libgd-full
+ * check_data_file_clashes: Package libgd wants to install file /workdir/openwrt/build_dir/target-mipsel_74kc_musl/root-bcm47xx/usr/lib/libgd.so.3.0.8
+	But that file is already provided by package  * libgd-full
+ * opkg_install_cmd: Cannot install package libgd.
+make[2]: *** [package/install] Error 255
+Configuring kmod-mac80211.
+make[1]: *** [/workdir/openwrt/staging_dir/target-mipsel_74kc_musl/stamp/.package_install] Error 2
+Configuring luci-app-p910nd.
+Configuring luci-i18n-p910nd-zh-cn.
+Configuring luci-app-openvpn.
+Configuring luci-i18n-openvpn-zh-cn.
+Configuring luci-i18n-ipsec-vpnd-zh-cn.
+Configuring luci-i18n-ddns-zh-cn.
+Configuring smartdns.
+Configuring luci-app-smartdns.
+Configuring luci-i18n-smartdns-zh-cn.
+Configuring kmod-nf-nathelper-extra.
+Configuring luci-app-xlnetacc.
+make: *** [world] Error 2
+Configuring kmod-ledtrig-default-on.
+Configuring luci-i18n-adbyby-plus-zh-cn.
+Configuring luci-app-ramfree.
+Configuring luci-i18n-ramfree-zh-cn.
+Configuring luci-app-ocserv.
+Configuring wol.
+Configuring luci-app-wol.
+Configuring luci-app-jd-dailybonus.
+Configuring luci-i18n-wol-zh-cn.
+Configuring luci-app-upnp.
+Configuring libpcap1.
+Configuring luci-i18n-mwan3-zh-cn.
+Configuring default-settings.
+Configuring luci-i18n-ttyd-zh-cn.
+Configuring luci-app-hd-idle.
+Configuring luci-i18n-hd-idle-zh-cn.
+Configuring luci-i18n-base-zh-cn.
+Configuring libnet-1.2.x.
+Configuring tcpping.
+Configuring kmod-b43.
+Configuring luci-app-argon-config.
+Configuring shadowsocks-libev-ss-server.
+Configuring verysync.
+Configuring udp2raw-tunnel.
+Configuring luci-app-verysync.
+Configuring luci-app-serverchan.
+Configuring luci-i18n-verysync-zh-cn.
+Configuring luci-i18n-upnp-zh-cn.
+Configuring luci-i18n-mwan3helper-zh-cn.
+Configuring brook.
+Configuring simple-obfs-server.
+Configuring urngd.
+Configuring luci-i18n-firewall-zh-cn.
+Configuring ppp-mod-pppoe.
+Configuring luci-app-passwall.
+Configuring luci-i18n-nlbwmon-zh-cn.
 Configuring kmod-ledtrig-netdev.
 package/Makefile:65: recipe for target 'package/install' failed
 make[2]: Leaving directory '/workdir/openwrt'
